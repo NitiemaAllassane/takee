@@ -2,6 +2,7 @@
 	import Badge from "$lib/components/Badge.svelte";
 	import Header from "$lib/components/Header.svelte";
     import { ArrowDown, ArrowUp } from "lucide-svelte";
+    import graphSvg from '../../static/images/graph.svg';
 
     const discovers = [
         {
@@ -132,7 +133,7 @@
 
             <!-- * graph -->
             <figure>
-                <img src="/images/graph.svg" alt="NFT graph">
+                <img src={graphSvg} alt="NFT Graph">
             </figure>
 
             <div class="flex items-center gap-10 p-5">
