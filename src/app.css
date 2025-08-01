@@ -9,21 +9,48 @@ text color: #fff
 gray: #737373
  */
 
- body {
-    font-family: 'Arimo', sans-serif;
+ @theme {
+    --color-primary: #131113;
+    --color-red: #D1002C;
+    --color-second: #1D1B1D;
  }
 
- @layer base {
+  @layer base {
     h1 {
-        font-size: 20px;
+        font-size: 40px;
     }
 
     h2 {
         font-size: 24px;
     }
 
-    h3 {
-        font-size: 22px;
+    p {
+        line-height: 1.5;
+    }
+
+    img {
+        max-width: 100%;
+    }
+
+    h1, h2, h3 , h4 {
+        line-height: normal;
     }
 
  }
+
+
+ body {
+    font-family: 'Arimo', sans-serif;
+    background-color: #1D1B1D;
+    color: #fff;
+ }
+
+ .container {
+    max-width: 1080px;
+    margin: 0 auto;
+
+    @media screen and (max-width: 48rem) {
+        max-width: 90%;
+    }
+ }
+
