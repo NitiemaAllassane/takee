@@ -76,7 +76,7 @@
                     <h1 class="font-bold mb-1">Get NFT on your email</h1>
                     <p class="font-bold text-sm mb-6">Notifications of new collections</p>
                     <a href="/" class=" bg-white font-bold text-black py-3 px-6 rounded-2xl">
-                        Suscribe
+                        Subscribe
                     </a>
                 </div>
                 <figure>
